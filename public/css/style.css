@@ -4843,5 +4843,8 @@
     display: none !important;
   }
 }
+.panel.navlist {
+  height: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
