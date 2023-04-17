@@ -4851,4 +4851,41 @@
   padding: 10px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.card button {
+  margin-top: auto;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex > div[class^=col] {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.d-flex > div[class^=col] > div {
+  justify-content: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
