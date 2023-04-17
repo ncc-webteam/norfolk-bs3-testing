@@ -4866,6 +4866,10 @@
   justify-content: stretch;
 }
 
+.card {
+  flex-direction: column;
+}
+
 .card button {
   margin-top: auto;
 }
